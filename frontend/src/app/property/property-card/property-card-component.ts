@@ -1,5 +1,6 @@
 import { style } from "@angular/animations";
 import { Component, Input } from "@angular/core";
+import { IProperty } from "../IProperty.interface";
 
 @Component({
   selector: 'app-property-card',
@@ -9,6 +10,7 @@ import { Component, Input } from "@angular/core";
   // styles:['h1 {font-weight:normal}']
 })
 export class PropertyCardComponent{
-  @Input() property : any;
+  // @ts-ignore
+  @Input() property : IProperty = null;
 
 }
