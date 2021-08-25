@@ -1,36 +1,47 @@
 [
   {
     "Id": 1,
+    "SellRent" : 1,
     "Name": "Birla House",
     "Type": "House",
-    "Price": 12000
+    "Price": 12000,
+    "Image":"prop-1.png"
   },{
     "Id": 2,
+    "SellRent" : 1,
     "Name": "Erose Villa",
     "Type": "Villa",
-    "Price": 18000
+    "Price": 18000,
+    "Image":"prop-2.png"
   },
   {
     "Id": 3,
+    "SellRent" : 1,
     "Name": "Western House",
-    "Type": "Mantion",
-    "Price": 18000
+    "Type": "Mansion",
+    "Price": 18000,
+    "Image":"prop-3.png"
   },
   {
     "Id": 4,
+    "SellRent" : 1,
     "Name": "White House",
     "Type": "House",
-    "Price": 21000
+    "Price": 21000,
+    "Image":"prop-4.png"
   },
   {
     "Id": 5,
+    "SellRent" : 1,
     "Name": "Mark Hill",
-    "Type": "Mantion",
-    "Price": 14000
+    "Type": "Mansion",
+    "Price": 14000,
+    "Image":"prop-5.png"
   },
   {
     "Id": 6,
-    "Name": "Sparkel House",
+    "SellRent" : 1,
+    "Name": "Sparkle House",
     "Type": "Villa",
     "Price": 25000
   }

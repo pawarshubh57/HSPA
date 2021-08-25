@@ -11,12 +11,13 @@ export class HousingService {
 
   constructor(private http : HttpClient) { }
 
-  getAllProperties(): Observable<IProperty[]>{
+  getAllProperties(SellRent : number): Observable<IProperty[]>{
    return this.http.get('data/properties.json').pipe(
      map(data => {
        const propertiesArray : Array<IProperty> = [];
        var something : any = data;
        for(const d in something){
+         if(data.hasOwnProperty(d))
          propertiesArray.push(something[d]);
        }
         return propertiesArray;
